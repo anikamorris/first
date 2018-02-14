@@ -1,0 +1,62 @@
+body {
+    background-color: #DDFBFF;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #A67D5E;
+
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #A67D5E;
+
+
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    color: #A67D5E;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    color: #A67D5E;
+}
+
+li {
+    font-family: Arial, sans-serif;
+}
+
+#experiences {
+    background-color: #baecf3;
+    padding: 1%;
+    margin: 2% 0% 0% 0%;
+}
+
+#poetry {
+    background-color: #f3d2ba;
+    padding: 1%;
+    margin: 2%;
+    padding-top: 0.2%;
+    height: 150px;
+
+}
+
+#service {
+    background-color: #f3d2ba;
+    padding: 1%;
+    margin: 2%;
+    padding-top: 0.2%;
+    height: 150px;
+}
+
+#app {
+    background-color: #f3d2ba;
+    padding: 1%;
+    margin: 2%;
+    padding-top: 0.2%;
+    height: 150px;
+}
