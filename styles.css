@@ -4,34 +4,66 @@ body {
 
 h1 {
     font-family: Arial, sans-serif;
+    font-size: 50px;
     color: #403130;
     margin-left: 40px;
+    top: 30px;
+    left: 40px;
+    position: absolute;
+    z-index: 2;
 }
 
 h2 {
     font-family: Arial, sans-serif;
+    font-size: 30px;
     color: #403130;
     margin-left: 40px;
+    z-index: 2;
+    top: 113px;
+    left: 40px;
+    position: absolute;
 }
 
 h3 {
     font-family: Arial, sans-serif;
     color: #403130;
+    z-index: 2;
+
 }
 
 p {
     font-family: Arial, sans-serif;
     font-weight: lighter;
     color: #403130;
+    z-index: 4;
+
 }
 
+#brick-wall {
+    position: relative;
+    z-index: 1;
+    opacity: .2;
+    width: 100%;
+}
+#brick-wall-2 {
+    position: relative;
+    z-index: 1;
+    opacity: .2;
+    width: 100%;
+    bottom: 0px;
+}
 
 
 #experiences {
     background-color: #7F6360;
     padding: 1%;
     margin: 5% 0% 0% 0%;
-    width: 40%
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    opacity: 1;
+    z-index: 3;
 }
 
 #poetry {
@@ -40,7 +72,7 @@ p {
     margin: 2%;
     padding-top: 0.2%;
     padding-left: 15px;
-    height: 250px;
+    height: 260px;
 
 }
 
@@ -50,7 +82,8 @@ p {
     margin: 2%;
     padding-top: 0.2%;
     padding-left: 15px;
-    height: 250px;
+    height: 260px;
+
 }
 
 #app {
@@ -59,5 +92,7 @@ p {
     margin: 2%;
     padding-top: 0.2%;
     padding-left: 15px;
-    height: 250px;
+    height: 260px;
+
 }
+
